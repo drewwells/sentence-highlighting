@@ -21,7 +21,7 @@
 	    //Took the Mayans to understand 0, common folks still don't like it
 	    para:      hash.replace( /.*[p|h](\d+).*/i, substr1 ) - 1, 
 	    sent:      hash.replace( /.*s(\d+).*/i, substr1 ) - 1,
-	    highlight: /s/i.test( hash )
+	    highlight: /h/i.test( hash )
 	};
 	
 	//Sentence is specified, find the position of this relative to the paragraph
